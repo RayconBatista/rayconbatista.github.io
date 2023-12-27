@@ -17,7 +17,7 @@ function toggleMode() {
   const img = document.querySelector("#profile img");
   const imgSrc = isLightMode
       ? "https://rayconlimabatista.com.br/img/avatar_profile.webp"
-      : "https://github.com/rayconBatista.png";
+      : "../images/profile-github.webp";
   img.setAttribute("src", imgSrc);
 }
 
